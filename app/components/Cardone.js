@@ -10,7 +10,7 @@ const Cardone = () => {
         </p>
         <div className="flex justify-center">
           <button className="bg-white text-orange-500 font-semibold py-3 px-6 rounded transition-transform transform hover:scale-105 hover:shadow-lg">
-            Schedule a Free Discovery Call now
+            Earn Now
           </button>
         </div>
       </div>
