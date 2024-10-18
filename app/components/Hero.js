@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between h-auto md:h-[80vh] relative">
+        <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-[80vh] relative">
             {/* Background Image with Blur */}
             <div 
                 className="absolute inset-0 bg-cover bg-center"
@@ -33,7 +33,7 @@ const Page = () => {
             </div>
 
             {/* Right Side: Image Placeholder */}
-            <div className="w-full md:w-1/2 h-full flex justify-center items-start mt-0">
+            <div className="w-full md:w-1/2 h-full flex justify-center items-center md:mt-0 mt-4">
                 <img 
                     src="/images/manish2-removebg-preview.png" 
                     alt="Business Coaching Image" 
