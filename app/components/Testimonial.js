@@ -76,7 +76,7 @@ const Testimonial = () => {
                       </div>
 
                       <blockquote className="flex-1 mt-8">
-                        <p className="text-lg leading-relaxed text-gray-900 font-pj">“Rareblocks has changed the way I approach web development. Highly recommend!”</p>
+                        <p className="text-lg leading-relaxed text-gray-900 font-pj">“Manish has changed the way I approach web development. Highly recommend!”</p>
                       </blockquote>
                     </div>
 
@@ -105,7 +105,7 @@ const Testimonial = () => {
                       </div>
 
                       <blockquote className="flex-1 mt-8">
-                        <p className="text-lg leading-relaxed text-gray-900 font-pj">“The best choice I made was using Rareblocks for my business. It saved me so much time!”</p>
+                        <p className="text-lg leading-relaxed text-gray-900 font-pj">“The best choice I made was using Manish for my business. It saved me so much time!”</p>
                       </blockquote>
                     </div>
 
