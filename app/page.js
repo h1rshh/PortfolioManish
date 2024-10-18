@@ -11,7 +11,6 @@ const Page = () => {
     <>
       <Tophead />
       <Hero />
-      <Cardone />
       <Solutions />
       <Cardone />
       <Testimonial />
