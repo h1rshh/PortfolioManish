@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React, { useState, useRef } from 'react';
 
 const Page = () => {
@@ -11,7 +11,7 @@ const Page = () => {
     };
 
     return (
-        <header className="relative flex items-center justify-between p-4 bg-gray-100 font-sans">
+        <header className="relative flex items-center justify-between p-4 bg-gradient-to-r from-black to-gray-800 font-sans">
             {/* Dropdown Button (for mobile) */}
             <button 
                 ref={buttonRef}
@@ -27,10 +27,10 @@ const Page = () => {
 
             {/* Left side: Links - hidden on mobile */}
             <div className="hidden md:flex items-center space-x-12 ml-3 font-bold">
-                <a href="#" className="text-gray-600 hover:text-gray-900">Coaching</a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">About</a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Team</a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Contact</a>
+                <a href="#" className="text-gray-200 hover:text-white">Coaching</a>
+                <a href="#" className="text-gray-200 hover:text-white">About</a>
+                <a href="#" className="text-gray-200 hover:text-white">Team</a>
+                <a href="#" className="text-gray-200 hover:text-white">Contact</a>
             </div>
 
             {/* Dropdown Menu */}
@@ -61,14 +61,14 @@ const Page = () => {
 
             {/* Right side: Button (for mobile) */}
             <div className="md:hidden ml-auto">
-                <button className="px-4 py-2 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all transform hover:scale-105 mr-4">
+                <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
                     Schedule a Call
                 </button>
             </div>
 
             {/* Right side: Button (for desktop) */}
             <div className="hidden md:block">
-                <button className="px-4 py-2 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all transform hover:scale-105 mr-4">
+                <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
                     Schedule a Call
                 </button>
             </div>

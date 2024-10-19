@@ -11,8 +11,8 @@ const Page = () => {
     <>
       <Tophead />
       <Hero />
-      <Solutions />
       <Cardone />
+      <Solutions />
       <Testimonial />
       <Footers />
     </>
