@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cardone = () => {
   return (
-    <div className="flex justify-center items-center h-[50vh] p-4 bg-gray-100">
+    <div className="flex justify-center items-center h-[50vh] p-4 bg-gray-100 sm:mt-8 md:mt-12">
       <div className="bg-gradient-to-r from-[#D2B48C] to-[#b69c70] text-white rounded-lg shadow-lg p-6 max-w-[80%] w-full mx-auto">
         <h1 className="text-2xl font-bold mb-4 text-center">Want to earn exceptionally?</h1>
         <p className="mb-6 text-lg text-center">
