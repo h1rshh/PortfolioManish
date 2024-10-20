@@ -16,7 +16,7 @@ const Page = () => {
 
             {/* Left Side: Text Content */}
             <div className="w-full md:w-1/2 p-6 md:p-8 bg-transparent">
-                <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 md:mb-6 text-black">
+                <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 md:mb-6 text-black underline">
                     Business Coaching Can <br />
                     <span className="text-white-500 underline">Change Everything</span>.
                 </h1>
