@@ -5,12 +5,14 @@ import Solutions from './components/Solutions'
 import Testimonial from './components/Testimonial'
 import Footers from './components/Footers'
 import Cardone from './components/Cardone'
+import Marquee from './components/Marquee'
 
 const Page = () => {
   return (
     <>
       <Tophead />
       <Hero />
+      <Marquee />
       <Cardone />
       <Solutions />
       <Testimonial />

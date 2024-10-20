@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonial = () => {
   return (
     <>
-      <section className="py-12 bg-gray-100 sm:py-16 lg:py-20">
+      <section className="py-12 bg-gray-100 sm:py-16 lg:py-20 font-sans">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center">
             <div className="text-center">
@@ -105,7 +105,7 @@ const Testimonial = () => {
                       </div>
 
                       <blockquote className="flex-1 mt-8">
-                        <p className="text-lg leading-relaxed text-gray-900 font-pj">“The best choice I made was using Manish for my business. It saved me so much time!”</p>
+                        <p className="text-lg leading-relaxed text-gray-900 font-pj">“The best choice I made was asking Manish for my business. It saved me so much time!”</p>
                       </blockquote>
                     </div>
 

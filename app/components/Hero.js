@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-[80vh] relative">
+        <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-[80vh] relative font-sans">
             {/* Background Image with Blur */}
             <div 
                 className="absolute inset-0 bg-cover bg-center"
@@ -18,7 +18,7 @@ const Page = () => {
             <div className="w-full md:w-1/2 p-6 md:p-8 bg-transparent">
                 <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 md:mb-6 text-black">
                     Business Coaching Can <br />
-                    <span className="text-white-500">Change Everything</span>
+                    <span className="text-white-500 underline">Change Everything</span>
                 </h1>
                 <p className="text-lg md:text-xl mb-1 md:mb-2 text-black">
                     Ready to reach goals? Book a 30-minute call with our Top Coaches.
