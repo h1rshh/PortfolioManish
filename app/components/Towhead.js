@@ -61,16 +61,20 @@ const Page = () => {
 
             {/* Right side: Button (for mobile) */}
             <div className="md:hidden ml-auto">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link">
                 <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
                     Schedule a Call
                 </button>
+                </a>
             </div>
 
             {/* Right side: Button (for desktop) */}
             <div className="hidden md:block">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link">
                 <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
                     Schedule a Call
                 </button>
+                </a>
             </div>
         </header>
     );

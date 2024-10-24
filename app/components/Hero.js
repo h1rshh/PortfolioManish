@@ -27,9 +27,11 @@ const Page = () => {
                     Connect with the ideal coach and start creating your effective strategy.
                 </p>
 
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link">
                 <button className="px-4 py-2 md:px-6 md:py-3 bg-[#bd9755] text-white font-semibold rounded-lg hover:bg-[#b3883e] transition-all transform hover:scale-105">
                     Schedule a Call
                 </button>
+                </a>
             </div>
 
             {/* Right Side: Image Placeholder */}

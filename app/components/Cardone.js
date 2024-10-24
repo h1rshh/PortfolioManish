@@ -9,9 +9,12 @@ const Cardone = () => {
           "Unlock Your Financial Freedom! Imagine earning up to <span className="font-extrabold underline">20k - 50k monthly</span> —a lifestyle filled with opportunities, dreams realized, and the comfort you deserve. Join our transformative course and step into a future where your income potential knows no bounds!"
         </p>
         <div className="flex justify-center">
-          <button className="bg-white text-[#c79847] font-semibold py-2 px-4 rounded transition-transform transform hover:scale-105 hover:shadow-lg">
-            Earn Now
-          </button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+            <button className="bg-white text-[#c79847] font-semibold py-2 px-4 rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                Earn Now
+            </button>
+        </a>
+
         </div>
       </div>
     </div>
