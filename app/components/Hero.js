@@ -21,7 +21,7 @@ const Page = () => {
                     <span className="text-white-500 underline">Change Everything</span>.
                 </h1>
                 <p className="text-lg md:text-xl mb-1 md:mb-2 text-black">
-                    Ready to reach goals? Book a 30-minute call with our Top Coaches.
+                    Ready to reach goals? Book a 30-minute call with our Expert.
                 </p>
                 <p className="text-lg md:text-xl mb-4 md:mb-6 text-black">
                     Connect with the ideal coach and start creating your effective strategy.

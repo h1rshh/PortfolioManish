@@ -14,7 +14,7 @@ const Page = () => {
             <div className="bg-gray-100 min-h-screen py-8 font-sans">
                 {/* Centered Heading */}
                 <div className="flex flex-col items-center mt-8">
-                    <h1 className="text-4xl font-bold text-center mb-8">Our Coaching Solution</h1>
+                    <h1 className="text-4xl font-bold text-center mb-8 underline">Discover Our Expertise</h1>
                 </div>
 
                 {/* Grid Section for Cards */}
@@ -48,8 +48,8 @@ const Page = () => {
                             KKR Enterprises <br />
                             KKR Films <br /> 
                             House of Aslam <br /> 
-                            Nutrimids India <br /> 
-                            Neswiz Retails Pvt Ltd 
+                            Nutramids India <br /> 
+                            Naswiz Retails Pvt Ltd 
                         </p>
                     </div>
 
@@ -63,8 +63,8 @@ const Page = () => {
                         <h1 className="text-xl font-semibold text-center mb-2">Education</h1>
                         <p className="text-gray-600 text-center">
                             East & Coast American University <br /> 
-                            ECB, RTU <br /> 
-                            Marudhar RTU 
+                            ECB Rajasthan Technical University<br /> 
+                            Marudhar Engineering College 
                         </p>
                     </div>
 
