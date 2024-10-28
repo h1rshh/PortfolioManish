@@ -31,7 +31,7 @@ const Marquee = () => {
         {
           scale: 1,
           opacity: 1,
-          duration: 0.5,
+          duration: 0.9,
           ease: "power3.out",
           scrollTrigger: {
             trigger: headingRef.current,
