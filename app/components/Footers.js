@@ -10,8 +10,8 @@ const Footers = () => {
         <p className="text-lg mb-4">
           For any Registration Queries or any further queries please contact on the below details.
         </p>
-        <p className="mb-2">Manish Vyas and Team: +91 865646XXXX | eventopXX@gmail.com</p>
-        <p className="mb-6">Digir Inovation: +91 786565XXXX, +91 040830XXXX</p>
+        <p className="mb-2">Manish Vyas and Team: +91 8000834416 | digiraj.it@gmail.com</p>
+        <p className="mb-6">Digir Innovation: +91 , +91 040830XXXX</p>
 
         <div className="flex justify-center space-x-6 text-2xl mb-4">
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">

@@ -1,6 +1,42 @@
-import React from 'react';
+'use client';
+import React, { useEffect, useRef } from 'react';
+import gsap from 'gsap';
 
 const Page = () => {
+    const line1Ref = useRef(null);
+    const line2Ref = useRef(null);
+    const paragraphsRef = useRef([]);
+    const buttonRef = useRef(null);
+
+    useEffect(() => {
+        // Animate the h1 lines
+        gsap.fromTo(
+            [line1Ref.current, line2Ref.current],
+            { y: 50, opacity: 0 },
+            {
+                y: 0,
+                opacity: 1,
+                duration: 1,
+                delay: 1,
+                stagger: 0.3,
+                ease: "power3.out",
+            }
+        );
+
+        // Animate the paragraphs and button
+        gsap.fromTo(
+            [...paragraphsRef.current, buttonRef.current],
+            { opacity: 0 },
+            {
+                opacity: 1,
+                duration: 1,
+                delay: 1.5,
+                stagger: 0.2,
+                ease: "power3.out",
+            }
+        );
+    }, []);
+
     return (
         <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-[80vh] relative font-sans">
             {/* Background Image with Blur */}
@@ -9,28 +45,42 @@ const Page = () => {
                 style={{
                     backgroundImage: `url('https://img.freepik.com/free-photo/white-smooth-marble-textured-background_53876-108283.jpg')`,
                     filter: 'blur(0px)',
-                    zIndex: -1, // Place it behind other content
-                    opacity: 1, // Ensure the image is fully visible
+                    zIndex: -1,
+                    opacity: 1,
                 }}
             />
 
             {/* Left Side: Text Content */}
             <div className="w-full md:w-1/2 p-6 md:p-8 bg-transparent">
-                <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 md:mb-6 text-black underline">
-                    Business Coaching Can <br />
-                    <span className="text-white-500 underline">Change Everything</span>.
+                <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 md:mb-6 text-black">
+                    <span ref={line1Ref} className="inline-block underline">
+                        Business Coaching Can
+                    </span>
+                    <br />
+                    <span ref={line2Ref} className="inline-block underline text-white-500">
+                        Change Everything.
+                    </span>
                 </h1>
-                <p className="text-lg md:text-xl mb-1 md:mb-2 text-black">
+                <p
+                    ref={(el) => (paragraphsRef.current[0] = el)}
+                    className="text-lg md:text-xl mb-1 md:mb-2 text-black"
+                >
                     Ready to reach goals? Book a 30-minute call with our Expert.
                 </p>
-                <p className="text-lg md:text-xl mb-4 md:mb-6 text-black">
+                <p
+                    ref={(el) => (paragraphsRef.current[1] = el)}
+                    className="text-lg md:text-xl mb-4 md:mb-6 text-black"
+                >
                     Connect with the ideal coach and start creating your effective strategy.
                 </p>
 
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link">
-                <button className="px-4 py-2 md:px-6 md:py-3 bg-[#bd9755] text-white font-semibold rounded-lg hover:bg-[#b3883e] transition-all transform hover:scale-105">
-                    Schedule a Call
-                </button>
+                    <button
+                        ref={buttonRef}
+                        className="px-4 py-2 md:px-6 md:py-3 bg-[#bd9755] text-white font-semibold rounded-lg hover:bg-[#b3883e] transition-all transform hover:scale-105"
+                    >
+                        Schedule a Call
+                    </button>
                 </a>
             </div>
 
@@ -39,7 +89,7 @@ const Page = () => {
                 <img 
                     src="/images/manish2-removebg-preview.png" 
                     alt="Business Coaching Image" 
-                    className="h-full object-cover rounded-lg" // Set the image height to full
+                    className="h-full object-cover rounded-lg" 
                 />
             </div>
         </div>
