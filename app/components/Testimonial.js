@@ -52,10 +52,10 @@ const Testimonial = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png" alt="" />
+                      <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://media.licdn.com/dms/image/v2/D4E35AQHZIhS14MdslA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1725516986422?e=1730797200&v=beta&t=WeGVNV8oBiBy5jxJAhubDYO1ofguhRn4P_FycC_xAco" alt="" />
                       <div className="ml-4">
-                        <p className="text-base font-bold text-gray-900 font-pj">Leslie Alexander</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">Freelance React Developer</p>
+                        <p className="text-base font-bold text-gray-900 font-pj">Rehansh Mohta</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">Product Lead</p>
                       </div>
                     </div>
                   </div>
@@ -83,7 +83,7 @@ const Testimonial = () => {
                     <div className="flex items-center mt-8">
                       <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png" alt="" />
                       <div className="ml-4">
-                        <p className="text-base font-bold text-gray-900 font-pj">Jordan Green</p>
+                        <p className="text-base font-bold text-gray-900 font-pj">Harsh</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">Web Designer</p>
                       </div>
                     </div>
@@ -110,9 +110,9 @@ const Testimonial = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" alt="" />
+                      <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCdLCpxwti9WTG5SmOOXmlUQu7eSlpuHXsnA&s" alt="" />
                       <div className="ml-4">
-                        <p className="text-base font-bold text-gray-900 font-pj">Wade Warren</p>
+                        <p className="text-base font-bold text-gray-900 font-pj">Sameer Malhotra</p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">Product Manager</p>
                       </div>
                     </div>
