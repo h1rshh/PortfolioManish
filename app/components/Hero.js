@@ -7,32 +7,47 @@ const Page = () => {
     const line2Ref = useRef(null);
     const paragraphsRef = useRef([]);
     const buttonRef = useRef(null);
+    const imageRef = useRef(null); // Ref for the image
 
     useEffect(() => {
+        const tl = gsap.timeline();
+
         // Animate the h1 lines
-        gsap.fromTo(
+        tl.fromTo(
             [line1Ref.current, line2Ref.current],
             { y: 50, opacity: 0 },
             {
                 y: 0,
                 opacity: 1,
                 duration: 1,
-                delay: 1,
+                delay: 0.5,
                 stagger: 0.3,
                 ease: "power3.out",
             }
         );
 
         // Animate the paragraphs and button
-        gsap.fromTo(
+        tl.fromTo(
             [...paragraphsRef.current, buttonRef.current],
             { opacity: 0 },
             {
                 opacity: 1,
                 duration: 1,
-                delay: 1.5,
                 stagger: 0.2,
                 ease: "power3.out",
+            },
+            "-=0.5" // Start slightly earlier to sync with previous animation
+        );
+
+        // Animate the image to fade in after the content
+        tl.fromTo(
+            imageRef.current,
+            { opacity: 0 }, // Start with opacity 0 and slide in from left
+            {
+                opacity: 1,
+                x: 0,
+                duration: 1.7,
+                ease: "power4.out",
             }
         );
     }, []);
@@ -87,6 +102,7 @@ const Page = () => {
             {/* Right Side: Image Placeholder */}
             <div className="w-full md:w-1/2 h-full flex justify-center items-center md:mt-0 mt-4">
                 <img 
+                    ref={imageRef} // Reference for the image
                     src="/images/manish2-removebg-preview.png" 
                     alt="Business Coaching Image" 
                     className="h-full object-cover rounded-lg" 
