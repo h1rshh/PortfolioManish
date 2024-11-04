@@ -27,10 +27,10 @@ const Page = () => {
 
             {/* Left side: Links - hidden on mobile */}
             <div className="hidden md:flex items-center space-x-12 ml-3 font-bold">
-                <a href="#" className="text-gray-200 hover:text-white">Coaching</a>
-                <a href="#" className="text-gray-200 hover:text-white">About</a>
-                <a href="#" className="text-gray-200 hover:text-white">Team</a>
-                <a href="#" className="text-gray-200 hover:text-white">Contact</a>
+                <a href="#solution" className="text-gray-200 hover:text-white">Coaching</a>
+                <a href="#hero" className="text-gray-200 hover:text-white">About</a>
+                <a href="#testimonial" className="text-gray-200 hover:text-white">Clients</a>
+                <a href="#footer" className="text-gray-200 hover:text-white">Contact</a>
             </div>
 
             {/* Dropdown Menu */}
@@ -45,16 +45,16 @@ const Page = () => {
             >
                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownMenuIconHorizontalButton">
                     <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-100">About</a>
+                        <a href="#hero" className="block px-4 py-2 hover:bg-gray-100">About</a>
                     </li>
                     <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-100">Coaching</a>
+                        <a href="#solution" className="block px-4 py-2 hover:bg-gray-100">Coaching</a>
                     </li>
                     <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-100">Team</a>
+                        <a href="#testimonial" className="block px-4 py-2 hover:bg-gray-100">Clients</a>
                     </li>
                     <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-100">Contact</a>
+                        <a href="#footer" className="block px-4 py-2 hover:bg-gray-100">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,18 +62,18 @@ const Page = () => {
             {/* Right side: Button (for mobile) */}
             <div className="md:hidden ml-auto">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link">
-                <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
-                    Schedule a Call
-                </button>
+                    <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
+                        Schedule a Call
+                    </button>
                 </a>
             </div>
 
             {/* Right side: Button (for desktop) */}
             <div className="hidden md:block">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSchidQCxDP_d2F0AG3Xvo07aqXQGIHxDkXbcGpeUG4p_DUA_w/viewform?usp=sf_link">
-                <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
-                    Schedule a Call
-                </button>
+                    <button className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105 mr-4">
+                        Schedule a Call
+                    </button>
                 </a>
             </div>
         </header>

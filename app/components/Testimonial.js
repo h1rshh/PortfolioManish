@@ -7,7 +7,7 @@ const Testimonial = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center">
             <div className="text-center">
-              <p className="text-lg font-medium text-gray-600 font-pj">2,157 people have said how good we are</p>
+              <p className="text-lg font-medium text-gray-600 font-pj">157 people have said how good we are</p>
               <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Our happy clients say about us</h2>
             </div>
 
@@ -17,7 +17,7 @@ const Testimonial = () => {
                 title=""
                 className="pb-2 text-base font-bold leading-7 text-gray-900 transition-all duration-200 border-b-2 border-gray-900 hover:border-gray-600 font-pj focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 hover:text-gray-600"
               >
-                Check all 2,157 reviews
+                Check all 157 reviews
               </a>
             </div>
 
