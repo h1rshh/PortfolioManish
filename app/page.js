@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect } from 'react'
-import Lenis from '@studio-freight/lenis' // Import Lenis
 import Towhead from './components/Towhead'
 import Hero from './components/Hero'
 import Solutions from './components/Solutions'
