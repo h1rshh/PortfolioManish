@@ -11,9 +11,7 @@ const Footers = () => {
           For any Registration Queries or any further queries please contact on the below details.
         </p>
         <p className="mb-2">Manish Vyas and Team: digiraj.it@gmail.com</p>
-        <p className="mb-6">Digir Innovation:  <a href="https://digirinnovations.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline font-bold">
-            Digir Innovations
-          </a></p>
+        <p className="mb-6"></p>
 
         <div className="flex justify-center space-x-6 text-2xl mb-4">
           <a href="https://www.instagram.com/manishvyas_05/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
@@ -38,7 +36,8 @@ const Footers = () => {
         <p className="text-sm">
           Developed by{' '}
           <a href="https://digirinnovations.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline font-bold">
-            Digir Innovations
+          digiR Innovations and Technologies
+
           </a>
         </p>
       </div>
