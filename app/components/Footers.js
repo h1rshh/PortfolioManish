@@ -17,14 +17,14 @@ const Footers = () => {
           <a href="https://www.instagram.com/manishvyas_05/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
             <FaInstagram />
           </a>
-          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569849%7Cb%7Cfacebook%7C&placement=&creative=589460569849&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-592856129%26loc_physical_ms%3D9179342%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=Cj0KCQiA_qG5BhDTARIsAA0UHSKuR3nIrFCo5yfXS4b5F5oueTRKAlFnjtHDzSVeHF6daQ2N3oYx89YaAg6BEALw_wcB" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+          <a href="https://www.facebook.com/manish.vyas.71404?rdid=Y0uYaEW0zNhGgDSL&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14WrjRev8R%2F#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
             <FaFacebookF />
           </a>
           <a href="https://www.linkedin.com/company/digir-innovations-and-technologies/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
             <FaLinkedinIn />
           </a>
           {/* Use FaXTwitter from react-icons/fa6 */}
-          <a href="https://x.com/DigiR_Raj" target="_blank" rel="noopener noreferrer" className="hover:text-[#4a4c59]">
+          <a href="https://x.com/drmanishvyas?t=IB36spmbAhSEk8IW4yKG4A&s=08" target="_blank" rel="noopener noreferrer" className="hover:text-[#4a4c59]">
             <FaXTwitter />
           </a>
         </div>
